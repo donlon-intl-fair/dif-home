@@ -1,0 +1,174 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #234B90;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 1% 8%;
+}
+
+.title-item {
+  padding: 0.5rem;
+}
+
+.school-logo {
+  width: 200px;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.title-desc {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/* Features Section */
+#features {
+  text-align: center;
+  background-color: white;
+}
+
+.features-box {
+  padding: 1rem 1rem;
+}
+
+.features-img {
+  width: 300px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.features-desc {
+  color: #8f8f8f;
+}
+
+#countries {
+  padding: 2% 7%;
+  text-align: center;
+  line-height: 0.5;
+}
+
+.past {
+  padding: 0.5rem 0.5rem 2rem;
+  background-color: #eeeeee;
+  color: #8d8d8b;
+  width: 180px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);/* For IE8 and earlier */
+
+}
+
+.present {
+  padding: 0.5rem 0.5rem 2rem;
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  width: 180px;
+}
+
+.flag_img {
+  width: 150px;
+  border-style: solid;
+  border-color: darkgray;
+  border-width: thin;
+}
+/* flag exception Nepal, Switzerland */
+#Nepal {
+  width: 100px;
+  border-width : 0;
+}
+
+#Switzerland {
+  width: 100px;
+  border-style: solid;
+  border-color: darkgray;
+  border-width: thin;
+}
+
+/* Download Buttons */
+.downlond_button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  /* text-align:center; */
+}
+
+/* Testimonial Section */
+#gallery {
+  font-family: 'Ubuntu';
+  text-align: center;
+  background-color: #b2d0f9;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 1%;
+}
+
+#press {
+  background-color: #fe8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#cta {
+  font-family: 'Ubuntu';
+  text-align: center;
+  background-color: #b2d0f9;
+  color: #fff;
+}
